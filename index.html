@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>UNIVERSITY REGISTRATION FORM</title>
 </head>
 <body>
     <h1>University Registration Form</h1>
@@ -17,11 +17,11 @@
     <br><br>
 
      <label for ="lastname">Last Name : </label>
-    <input type = "text" name = "userlastname" id = "lastname" placeholder = "e.g: mishra"required>
+    <input type = "text" name = "userlastname" id = "lastname" placeholder = "e.g: mishra" required>
 <br><br>
     
      <label for ="dob">Date of Birth : </label>
-    <input type = "date" name = "userdob" id = "dob"required>
+    <input type = "date" name = "userdob" id = "dob" required>
 <br>
 
 
@@ -37,17 +37,17 @@
     <label for = "other">Other</label>
 <br>
 
-<h3>Upload Your Photo </h3>
-<input type = "file" name ="file">
+<label for="photo">Upload Your Photo:</label>
+<input type="file" name="file" id="photo">
 
 <hr>
 
 <h2>Contact Information</h2>
 <label for ="Email">Email Address : </label>
-    <input type = "email" name = "email" id = "Email" placeholder = "e.g: sauarbh12@bhugmail.com">
+    <input type = "email" name = "email" id = "Email" placeholder = "e.g: sauarbh12@bhugmail.com" required>
 <br><br>
 <label for ="contact">contact Number : </label>
-    <input type = "number" name = "mobile no." id = "contact" placeholder = "e.g: 1234567890"required>
+    <input type = "tel" name = "mobile" id = "contact" pattern ="[0-9]{10}" placeholder = "e.g: 1234567890" required>
     <br><br>
 <label for = "Address">Mailing Address:</label>
 <br>
@@ -63,7 +63,7 @@
            <option value = "CSE-AI">CSE-AI</option>
     </select>
 
-    <BR>
+    <br>
         <h3>Extracurricular Activities</h3>
         <label for = "Sports">Sports</label>
         <input type = "checkbox" name = "interest" id = "Sports" value = "Sports">
@@ -84,7 +84,7 @@
         <h2>Create Your Account</h2>
 
         <label for = "pass">Create a Password :</label>
-        <input type = "password" name = "password" id = "pass"required>
+        <input type = "password" name = "password" id = "pass" required>
         <br><br>
 
          <label for = "security">Security Question :</label>
@@ -95,8 +95,8 @@
          
     </select>
 
-    <label for ="security ans">Security answer: </label>
-    <input type = "text" name = "security" id = "security ans" >
+    <label for ="security_ans">Security answer: </label>
+    <input type = "text" name = "security" id = "security_ans" >
     <br><br>
 
 
